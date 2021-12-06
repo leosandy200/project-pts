@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.DetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imgView"
+            android:layout_width="450dp"
+            android:layout_height="450dp"
+            />
+        <TextView
+            android:id="@+id/namalist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/imgView"
+            android:layout_marginLeft="18dp"
+            />
+        <TextView
+            android:id="@+id/diskripsilist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="diskripsi"
+            android:textStyle="bold"
+            android:layout_marginLeft="25dp"
+            android:layout_below="@+id/namalist"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            />
+        <Button
+            android:id="@+id/buttonsimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:layout_below="@+id/diskripsilist"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            />
+
+
+    </RelativeLayout>
+
+</ScrollView>
